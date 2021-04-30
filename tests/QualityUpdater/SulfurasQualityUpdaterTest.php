@@ -23,12 +23,12 @@ class SulfurasQualityUpdaterTest extends TestCase
     {
         return [
             [
-                new Item('Item', -2, 123),
-                new Item('Item', -2, 123),
+                new Item('Item', -2, 80),
+                new Item('Item', -2, 80),
             ],
             [
-                new Item('Item', 14, 10),
-                new Item('Item', 14, 10),
+                new Item('Item', 14, 80),
+                new Item('Item', 14, 80),
             ],
         ];
     }

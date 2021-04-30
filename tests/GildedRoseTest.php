@@ -22,12 +22,12 @@ class GildedRoseTest extends TestCase
     {
         $items = [
             new Item('Conjured Mana Cake', 3, 10),
-            new Item('Sulfuras, Hand of Ragnaros', 23, 321),
+            new Item('Sulfuras, Hand of Ragnaros', 23, 80),
         ];
         $gildedRose = new GildedRose($items);
         $gildedRose->updateQuality();
         $this->assertSame(8, $items[0]->quality);
-        $this->assertSame(321, $items[1]->quality);
+        $this->assertSame(80, $items[1]->quality);
     }
 
 }

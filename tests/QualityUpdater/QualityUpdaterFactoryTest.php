@@ -23,7 +23,7 @@ class QualityUpdaterFactoryTest extends TestCase
         $this->assertTrue(QualityUpdaterFactory::createForItem($item) instanceof AgedBrieQualityUpdater);
 
 
-        $item = new Item('Sulfuras, Hand of Ragnaros', 3,3);
+        $item = new Item('Sulfuras, Hand of Ragnaros', 3,80);
         $this->assertTrue(QualityUpdaterFactory::createForItem($item) instanceof SulfurasQualityUpdater);
 
 
